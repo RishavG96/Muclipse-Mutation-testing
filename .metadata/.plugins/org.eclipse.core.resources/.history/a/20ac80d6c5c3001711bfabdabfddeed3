@@ -1,0 +1,45 @@
+class Box {
+public int b;
+int width;
+int height;
+int depth;
+// construct clone of an object
+Box(Box ob) { // pass object to constructor
+	width = ob.width;
+height = ob.height;
+depth = ob.depth;
+
+}
+// constructor used when all dimensions specified
+Box(int width, int height, int depth) {
+this.width = width;
+this.height = height;
+this.depth = depth;
+}
+// constructor used when no dimensions specified
+Box() {
+width = -1; // use -1 to indicate
+height = -1; // an uninitialized
+depth = -1; // box
+
+}
+// constructor used when cube is created
+Box(int len) {
+width = height = depth = len;
+
+}
+public String display()
+{
+	return "testing box";
+}
+// compute and return volume
+int volume() {
+	val_b();
+return width * height * depth;
+}
+void val_b()
+{
+	b=5;
+}
+}
+// BoxWeight now fully implements all constructors.

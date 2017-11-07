@@ -1,43 +1,50 @@
 import junit.framework.TestCase;
+
 public class BoxTest extends TestCase{
-	Box b;
+	BoxWeight b;
 	public void setUp() throws Exception {
-		b = new Box();
+		b = new BoxWeight();
 	}
 	public void testSetBox0() {
-		assertEquals(-1, b.volume());
+		assertEquals(40, b.volume());
 	}
-	public void testSetBox() {
-		Box b1=new Box(2);
-		assertEquals(8, b1.volume());
-	}
-	public void testSetBox1() {
-		Box b2=new Box(2,3,4);
+	/*public void testSetBox1() {
+		BoxWeight b2=new BoxWeight(2,3,4);
 		assertEquals(24, b2.volume());
 	}
 	public void testSetBox2() {
-		Box b3=new Box(2);
+		BoxWeight b3=new BoxWeight(2);
 		assertEquals(8, b3.volume());
-	}
+	}*/
 	public void testSetBox3() {
-		Box b4=new BoxWeight();
-		assertEquals(-1, b4.volume());
+		BoxWeight b4=new BoxWeight();
+		//b4.val_b();
+		assertEquals(40, b4.volume());
 	}
 	public void testSetBox4() {
-		Box b5=new BoxWeight(2,3,4,5);
-		assertEquals(24, b5.volume());
+		BoxWeight b5=new BoxWeight(2,3,4,5);
+		//b5.val_b();
+		assertEquals(4800, b5.volume());
 	}
 	public void testSetBox5() {
 		BoxWeight b5=new BoxWeight(2,3,4,5);
-		Box b6=new BoxWeight(b5);
-		assertEquals(24, b6.volume());
+		BoxWeight b6=new BoxWeight(b5);
+		//b6.val_b();
+		assertEquals(4800, b6.volume());
 	}
 	public void testSetBox6() {
-		Box b6=new BoxWeight(4,5);
-		assertEquals(64, b6.volume());
-	}
-	public void testSetBox7() {
 		BoxWeight b6=new BoxWeight(4,5);
-		assertEquals(64, b6.volume1());
+		
+		assertEquals(12800, b6.volume());
+	}
+	public void testSetBox8() {
+		BoxWeight b6=new BoxWeight(4,5,6,7);
+		
+		assertEquals(33600, b6.volume());
+	}
+	public void testSetBox9() {
+		BoxWeight b6=new BoxWeight();
+		
+		assertEquals("testing box1", b6.display());
 	}
 }

@@ -1,0 +1,83 @@
+class Box {
+static int b;
+int width;
+int height;
+int depth;
+// construct clone of an object
+Box(Box ob) { // pass object to constructor
+	width = ob.width;
+height = ob.height;
+depth = ob.depth;
+
+}
+// constructor used when all dimensions specified
+Box(int width, int height, int depth) {
+this.width = width;
+this.height = height;
+this.depth = depth;
+}
+// constructor used when no dimensions specified
+Box() {
+width = -1; // use -1 to indicate
+height = -1; // an uninitialized
+depth = -1; // box
+
+}
+// constructor used when cube is created
+Box(int len) {
+width = height = depth = len;
+
+}
+// compute and return volume
+int volume(int a) {
+return width * height * depth * a;
+}
+void val_b()
+{
+	b=5;
+}
+}
+// BoxWeight now fully implements all constructors.
+class BoxWeight extends Box {
+	int b;
+int weight; // weight of box
+// construct clone of an object
+BoxWeight(BoxWeight ob) { // pass object to constructor
+super(ob);
+b=1;
+weight = ob.weight;
+
+}
+// constructor when all parameters are specified
+BoxWeight(int w, int h, int d, int m) {
+
+super(w, h, d); // call superclass constructor
+b=1;
+weight = m;
+
+}
+// default constructor
+BoxWeight() {
+super();
+b=1;
+weight = -1;
+
+}
+// constructor used when cube is created
+BoxWeight(int len, int m) {
+super(len);
+b=1;
+weight = m;
+
+}
+int volume(int a) {
+	a=super.volume(a);
+	b=10;
+	return width * height *depth *weight* b;
+}
+void val_b()
+{
+	super.val_b();
+	b=10;
+}
+}
