@@ -1,0 +1,7 @@
+import junit.framework.TestCase;
+public class BoxTest extends TestCase{
+	Box b;
+	public void setUp() throws Exception {
+		b = new Box();
+	}
+}

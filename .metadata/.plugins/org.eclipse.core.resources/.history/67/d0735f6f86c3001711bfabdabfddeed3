@@ -1,0 +1,12 @@
+import junit.framework.TestCase;
+public class BoxTest extends TestCase{
+	Box b;
+	public void setUp() throws Exception {
+		b = new Box();
+	}
+	
+	public void testSetBox() {
+		Box b1=new Box(2);
+		assertEquals(8, b1.volume());
+	}
+}

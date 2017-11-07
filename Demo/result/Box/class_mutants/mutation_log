@@ -1,0 +1,7 @@
+IPC_1:53:super( ob ); is deleted
+IPC_2:59:super( w, h, d ); is deleted
+IPC_3:71:super( len ); is deleted
+JTD_1:23:this.height => height
+JTD_2:24:this.depth => depth
+JTI_1:23:height  -->  this.height
+JTI_2:24:depth  -->  this.depth
