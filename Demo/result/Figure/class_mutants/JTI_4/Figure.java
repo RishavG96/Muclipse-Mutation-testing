@@ -1,0 +1,75 @@
+// This is mutant program.
+// Author : ysma
+
+public class Figure
+{
+
+    static int dim1;
+
+    static int dim2;
+
+    Figure( int dim1, int dim2 )
+    {
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+    }
+
+    Figure()
+    {
+        dim1 = -1;
+        dim2 = -1;
+    }
+
+    int area()
+    {
+        System.out.println( "Area for Figure is undefined." );
+        return 0;
+    }
+
+    int area( int dim1, int dim2 )
+    {
+        return dim1 * this.dim2;
+    }
+
+}
+
+class Rectangle extends Figure
+{
+
+    Rectangle( int a, int b )
+    {
+        super( a, b );
+    }
+
+    int area()
+    {
+        System.out.println( "Inside Area for Rectangle." );
+        return dim1 * dim2;
+    }
+
+    int area( int a, int b )
+    {
+        Figure f = new Rectangle( a, b );
+        return f.dim1 * f.dim2;
+    }
+
+}
+
+class Triangle extends Figure
+{
+
+    private static int ar;
+
+    Triangle( int a, int b )
+    {
+        super( a, b );
+    }
+
+    int area()
+    {
+        System.out.println( "Inside Area for Triangle." );
+        ar = (int) (dim1 * dim2 / 2.0);
+        return ar;
+    }
+
+}

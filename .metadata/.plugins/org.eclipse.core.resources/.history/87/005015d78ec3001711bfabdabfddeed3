@@ -1,0 +1,14 @@
+import junit.framework.TestCase;
+public class FigureTest extends TestCase{
+	Figure f;
+	public void setUp() throws Exception {
+		f = new Figure();
+	}
+	public void testSetBox0() {
+		assertEquals(0, f.area());
+	}
+	public void testSetBox1() {
+		Figure f1=new Figure(2,3);
+		assertEquals(0, f1.area());
+	}
+}

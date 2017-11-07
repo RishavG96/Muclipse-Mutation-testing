@@ -53,4 +53,9 @@ BoxWeight(int len, int m) {
 super(len);
 weight = m;
 }
+int volume1()
+{
+	int res=super.volume();
+	return res;
+}
 }

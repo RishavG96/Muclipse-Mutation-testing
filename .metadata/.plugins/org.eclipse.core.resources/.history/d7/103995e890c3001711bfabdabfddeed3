@@ -1,0 +1,45 @@
+
+public class Figure {
+	static int dim1;
+	static int dim2;
+	Figure(int dim1, int dim2) {
+	this.dim1 = dim1;
+	this.dim2 = dim2;
+	}
+	Figure()
+	{
+		dim1=-1;
+		dim2=-1;
+	}
+	int area() {
+	System.out.println("Area for Figure is undefined.");
+	return 0;
+	}
+	}
+	class Rectangle extends Figure {
+	Rectangle(int a, int b) {
+	super(a, b);
+	}
+	// override area for rectangle
+	int area() {
+	System.out.println("Inside Area for Rectangle.");
+	return dim1 * dim2;
+	}
+	}
+	class Triangle extends Figure {
+		private static int ar;
+	Triangle(int a, int b) {
+	super(a, b);
+	}
+	// override area for right triangle
+	int area() {
+	System.out.println("Inside Area for Triangle.");
+	ar=(int)((dim1 * dim2) / 2.0);
+	int ar;
+	}
+	int area1()
+	{
+		return ar;
+	}
+	
+	}

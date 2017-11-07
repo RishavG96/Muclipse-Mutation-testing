@@ -4,7 +4,7 @@
 <stringAttribute key="CLASS_PATH" value="bin"/>
 <stringAttribute key="MUTANT_HOME" value="result"/>
 <stringAttribute key="SRC_PATH" value="src"/>
-<intAttribute key="TESTING_LEVEL" value="3"/>
+<intAttribute key="TESTING_LEVEL" value="1"/>
 <stringAttribute key="TESTSET_PATH" value="src"/>
 <intAttribute key="TIMEOUT" value="4500"/>
 <stringAttribute key="WHICH_TEST" value="BoxTest"/>

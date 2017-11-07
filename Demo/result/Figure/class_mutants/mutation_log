@@ -1,0 +1,9 @@
+IPC_1:41:super( a, b ); is deleted
+IPC_2:65:super( a, b ); is deleted
+JTD_1:13:this.dim1 => dim1
+JTD_2:14:this.dim2 => dim2
+JTI_1:13:dim1  -->  this.dim1
+JTI_2:14:dim2  -->  this.dim2
+JTI_3:31:dim1  -->  this.dim1
+JTI_4:31:dim2  -->  this.dim2
+OMR_1:31:area(dim1,dim2) => area();

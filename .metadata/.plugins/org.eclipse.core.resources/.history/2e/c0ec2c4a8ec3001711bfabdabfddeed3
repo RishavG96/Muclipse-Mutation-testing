@@ -1,0 +1,7 @@
+import junit.framework.TestCase;
+public class FigureTest extends TestCase{
+	Figure f;
+	public void setUp() throws Exception {
+		f = new Figure();
+	}
+}

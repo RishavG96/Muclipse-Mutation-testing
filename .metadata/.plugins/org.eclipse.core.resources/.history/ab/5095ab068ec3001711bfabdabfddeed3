@@ -1,0 +1,48 @@
+
+public class Figure {
+	int dim1;
+	int dim2;
+	Figure(int dim1, int dim2) {
+	this.dim1 = dim1;
+	this.dim2 = dim2;
+	}
+	int area() {
+	System.out.println("Area for Figure is undefined.");
+	return 0;
+	}
+	}
+	class Rectangle extends Figure {
+	Rectangle(int a, int b) {
+	super(a, b);
+	}
+	// override area for rectangle
+	int area() {
+	System.out.println("Inside Area for Rectangle.");
+	return dim1 * dim2;
+	}
+	}
+	class Triangle extends Figure {
+	Triangle(int a, int b) {
+	super(a, b);
+	}
+	// override area for right triangle
+	int area() {
+	System.out.println("Inside Area for Triangle.");
+	return dim1 * dim2 / 2;
+	}
+	}
+	class FindAreas {
+	public static void main(String args[]) {
+	Figure f = new Figure(10, 10);
+	Rectangle r = new Rectangle(9, 5);
+	Triangle t = new Triangle(10, 8);
+
+	Figure figref;
+	figref = r;
+	System.out.println("Area is " + figref.area());
+	figref = t;
+	System.out.println("Area is " + figref.area());
+	figref = f;
+	System.out.println("Area is " + figref.area());
+	}
+	}

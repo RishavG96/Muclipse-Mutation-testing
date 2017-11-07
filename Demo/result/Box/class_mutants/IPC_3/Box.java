@@ -73,4 +73,10 @@ class BoxWeight extends Box
         weight = m;
     }
 
+    int volume1()
+    {
+        int res = super.volume();
+        return res;
+    }
+
 }
