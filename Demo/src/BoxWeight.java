@@ -10,38 +10,31 @@ BoxWeight(BoxWeight ob) { // pass object to constructor
 super(ob);
 //a=4;
 weight = ob.weight;
-if(b!=0)
-val_b();
 }
 // constructor when all parameters are specified
 BoxWeight(int w, int h, int d, int m) {
 super(w, h, d); // call superclass constructor
 //a=4;
 weight = m;
-if(b!=0)
-val_b();
 }
 // default constructor
 BoxWeight() {
 super();
 //a=4;
 weight = -1;
-if(b!=0)
-val_b();
 }
 // constructor used when cube is created
 BoxWeight(int len, int m) {
 super(len);
 //a=4;
 weight = m;
-if(b!=0)
-val_b();
 }
 
 int volume() {
 	if(a==0)
 		a=4;
-	return width * height *depth *weight* b*a;
+	val_b();
+	return width * height *depth *weight* super.b*a;
 }
 void val_b()
 {
@@ -93,7 +86,6 @@ val_b();
 
 // compute and return volume
 int volume() {
-	val_b();
 return width * height * depth*a;
 }
 void val_b()

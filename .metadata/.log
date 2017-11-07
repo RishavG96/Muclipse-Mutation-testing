@@ -123,3 +123,8 @@ Java Model Exception: Java Model Status [Unknown javadoc format for Rect [in Rec
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2017-11-07 13:37:47.943
 !MESSAGE Unknown javadoc format for Rect [in Rect.class [in org.w3c.dom.css [in C:\Program Files (x86)\Java\jre6\lib\rt.jar]]]
+
+!ENTRY org.eclipse.core.resources 2 2 2017-11-07 23:45:10.067
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-11-07 23:45:10.067
+!MESSAGE The project description file (.project) for 'inheritance2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

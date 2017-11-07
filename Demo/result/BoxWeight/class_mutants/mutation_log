@@ -1,16 +1,14 @@
-ISI_1:21:val_b()  -->  super.val_b()
-ISI_2:30:val_b()  -->  super.val_b()
-ISI_3:39:val_b()  -->  super.val_b()
-ISI_4:48:val_b()  -->  super.val_b()
-IOP_1:63:Overridden method call at last line.
+ISI_1:45:val_b()  -->  super.val_b()
+ISD_2:46:super.b => b
+IOP_1:52:Overridden method call at last line.
 IPC_1:18:super( ob ); is deleted
-IPC_2:27:super( w, h, d ); is deleted
-IPC_3:45:super( len ); is deleted
+IPC_2:24:super( w, h, d ); is deleted
+IPC_3:36:super( len ); is deleted
 IHD_1:9:// weight of boxint a; is deleted.
 IHI_1:7:int depth; is added.
 IHI_2:7:int height; is added.
 IHI_3:7:int width; is added.
 IHI_4:7:public int b; is added.
 IOD_1:11:public java.lang.String display() is deleted.
-IOD_2:52: int volume() is deleted.
-IOD_3:60: void val_b() is deleted.
+IOD_2:40: int volume() is deleted.
+IOD_3:49: void val_b() is deleted.

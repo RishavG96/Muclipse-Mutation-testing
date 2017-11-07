@@ -19,36 +19,24 @@ public class BoxWeight extends Box
     {
         super( ob );
         weight = ob.weight;
-        if (b != 0) {
-            val_b();
-        }
     }
 
     BoxWeight( int w, int h, int d, int m )
     {
         super( w, h, d );
         weight = m;
-        if (b != 0) {
-            val_b();
-        }
     }
 
     BoxWeight()
     {
         super();
         weight = -1;
-        if (b != 0) {
-            val_b();
-        }
     }
 
     BoxWeight( int len, int m )
     {
         super( len );
         weight = m;
-        if (b != 0) {
-            val_b();
-        }
     }
 
     int volume()
@@ -56,7 +44,8 @@ public class BoxWeight extends Box
         if (a == 0) {
             a = 4;
         }
-        return width * height * depth * weight * b * a;
+        val_b();
+        return width * height * depth * weight * super.b * a;
     }
 
     void val_b()
