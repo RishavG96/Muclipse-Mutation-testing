@@ -1,6 +1,6 @@
 ISI_1:45:val_b()  -->  super.val_b()
 ISD_2:46:super.b => b
-IOP_1:52:Overridden method call at last line.
+IOP_1:53:Overridden method call at last line.
 IPC_1:18:super( ob ); is deleted
 IPC_2:24:super( w, h, d ); is deleted
 IPC_3:36:super( len ); is deleted
@@ -11,4 +11,4 @@ IHI_3:7:int width; is added.
 IHI_4:7:public int b; is added.
 IOD_1:11:public java.lang.String display() is deleted.
 IOD_2:40: int volume() is deleted.
-IOD_3:49: void val_b() is deleted.
+IOD_3:50: void val_b() is deleted.

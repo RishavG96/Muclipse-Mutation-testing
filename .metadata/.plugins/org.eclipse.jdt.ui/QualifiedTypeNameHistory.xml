@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="inheritpoly"/>
+<fullyQualifiedTypeName name="mujava.OpenJavaException"/>
 <fullyQualifiedTypeName name="junit.framework.TestCase"/>
+<fullyQualifiedTypeName name="Figure"/>
+<fullyQualifiedTypeName name="Triangle"/>
+<fullyQualifiedTypeName name="Recipe"/>
+<fullyQualifiedTypeName name="Rectangle"/>
+<fullyQualifiedTypeName name="BoxWeight"/>
 </qualifiedTypeNameHistroy>

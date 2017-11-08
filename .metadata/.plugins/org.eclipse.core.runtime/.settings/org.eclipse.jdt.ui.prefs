@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Calculation"><rhs name\="inheritpoly"/></lhs><lhs name\="inheritpoly"><rhs name\="inheritpoly"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Calculation"><rhs name\="inheritpoly"/></lhs><lhs name\="inheritpoly"><rhs name\="inheritpoly"/></lhs><lhs name\="Box"><rhs name\="BoxWeight"/></lhs><lhs name\="Figure"><rhs name\="Figure"/><rhs name\="Triangle"/><rhs name\="Rectangle"/></lhs><lhs name\="Triangle"><rhs name\="Triangle"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

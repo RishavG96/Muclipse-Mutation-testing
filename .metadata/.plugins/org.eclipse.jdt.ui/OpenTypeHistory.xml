@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Demo/src&lt;{inheritpoly.java[inheritpoly" modifiers="1" timestamp="1509903283324"/>
-<typeInfo handle="=Demo/src&lt;{inheritTest.java[inheritTest" modifiers="1" timestamp="1509903239113"/>
 <typeInfo handle="=Demo/src&lt;{Recipe.java[Recipe" modifiers="1" timestamp="1509898406796"/>
 <typeInfo handle="=Demo/src&lt;{RecipeTest.java[RecipeTest" modifiers="1" timestamp="1509902492654"/>
+<typeInfo handle="=Demo/src&lt;{inheritTest.java[inheritTest" modifiers="1" timestamp="1509903239113"/>
+<typeInfo handle="=Demo/src&lt;{Figure.java[Figure" modifiers="1" timestamp="1510042556493"/>
+<typeInfo handle="=Demo/src&lt;{FigureTest.java[FigureTest" modifiers="1" timestamp="1510042561625"/>
+<typeInfo handle="=Demo/src&lt;{BoxTest.java[BoxTest" modifiers="1" timestamp="1510064961182"/>
+<typeInfo handle="=Demo/src&lt;{BoxWeight.java[BoxWeight" modifiers="1" timestamp="1510064980083"/>
 </typeInfoHistroy>

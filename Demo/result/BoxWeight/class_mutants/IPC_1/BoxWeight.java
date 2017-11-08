@@ -44,7 +44,8 @@ public class BoxWeight extends Box
             a = 4;
         }
         val_b();
-        return width * height * depth * weight * super.b * a;
+        int res = width * height * depth * weight * super.b * a;
+        return res;
     }
 
     void val_b()
